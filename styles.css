@@ -39,7 +39,7 @@ header {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(212, 80%, 42%, 0.658), hsla(2, 65%, 44%, 0.658)), url(../lhsmpweb/img/lehan23foto.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(212, 80%, 42%, 0.658), hsla(2, 65%, 44%, 0.658)), url(../lhsmpweb/img/lehan23foto.jpg);
+    background: linear-gradient(to right, hsla(212, 80%, 42%, 0.658), hsla(2, 65%, 44%, 0.658)), url(../img/lehan23foto.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
