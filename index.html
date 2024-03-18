@@ -51,6 +51,7 @@
                     <p>Para unirte al servidor debes unirte nuestra
                         IP:lehansmp.holy.gg
                         Version: 1.16.5, luego iniciar sesion dentro del servidor ¡Diviertete!
+                        <button onclick="copiarTexto()">Copiar IP</button>
 
                     </p>
                 </div>
@@ -221,7 +222,21 @@
 
         <h2 class="titulo-final">&copy; Lehan23 | Lehan SMP</h2>
     </footer>
+    <!-- Script para copiar texto -->
+    <script>
+        function copiarTexto() {
+            var texto = "lehansmp.holy.gg"; // Texto que se va a copiar
+            navigator.clipboard.writeText(texto)
+                .then(() => {
+                    alert('¡Dirección IP copiada!');
+                })
+                .catch(err => {
+                    console.error('Error al copiar el texto: ', err);
+                });
+        }
+    </script>
 
+    
 </body>
 
 </html>
